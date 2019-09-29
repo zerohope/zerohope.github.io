@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-29T08:26:08.067Z</updated>
+  <updated>2019-09-29T08:29:58.571Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,42 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>价值迭代</title>
+    <title>图上传</title>
     <link href="http://yoursite.com/2019/09/29/%E4%BB%B7%E5%80%BC%E8%BF%AD%E4%BB%A3/"/>
     <id>http://yoursite.com/2019/09/29/价值迭代/</id>
     <published>2019-09-29T08:22:16.000Z</published>
-    <updated>2019-09-29T08:26:08.067Z</updated>
+    <updated>2019-09-29T08:29:58.571Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="格子世界"><a href="#格子世界" class="headerlink" title="格子世界"></a>格子世界</h2><p><img src="https://i.loli.net/2019/09/29/FX7J6TKUylpIecf.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="格子世界"><a href="#格子世界" class="headerlink" title="格子世界"></a>格子世界</h2><p><img src="https://i.loli.net/2019/09/29/FX7J6TKUylpIecf.png" alt><br><img src="https://i.loli.net/2019/09/29/vA3QhJL7Xz8SOex.gif" alt="截图_20190925080732.gif"></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h2 id=&quot;格子世界&quot;&gt;&lt;a href=&quot;#格子世界&quot; class=&quot;headerlink&quot; title=&quot;格子世界&quot;&gt;&lt;/a&gt;格子世界&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/09/29/FX7J6TKUylpIecf.png&quot; a
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="http://yoursite.com/2019/09/28/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2019/09/28/测试/</id>
-    <published>2019-09-28T00:53:00.000Z</published>
-    <updated>2019-09-29T00:22:04.822Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一个测试，看看能不能插图什么的<br>然后发现并不能</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;这是一个测试，看看能不能插图什么的&lt;br&gt;然后发现并不能&lt;/p&gt;
-
       
     
     </summary>
