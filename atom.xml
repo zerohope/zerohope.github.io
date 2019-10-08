@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-29T08:29:58.571Z</updated>
+  <updated>2019-10-08T12:44:06.325Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>图上传</title>
+    <title>五子棋</title>
+    <link href="http://yoursite.com/2019/10/08/%E4%BA%94%E5%AD%90%E6%A3%8B/"/>
+    <id>http://yoursite.com/2019/10/08/五子棋/</id>
+    <published>2019-10-08T12:40:04.000Z</published>
+    <updated>2019-10-08T12:44:06.325Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="简单的五子棋实现"><a href="#简单的五子棋实现" class="headerlink" title="简单的五子棋实现"></a>简单的五子棋实现</h2><p><img src="https://i.loli.net/2019/10/08/fe9oHxUrCMsbSzm.gif" alt="截图_20191008072534.gif"></p><p>存在问题   3层计算非常慢</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;简单的五子棋实现&quot;&gt;&lt;a href=&quot;#简单的五子棋实现&quot; class=&quot;headerlink&quot; title=&quot;简单的五子棋实现&quot;&gt;&lt;/a&gt;简单的五子棋实现&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/08/fe9oHx
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>20190930111246</title>
+    <link href="http://yoursite.com/2019/09/30/20190930111246/"/>
+    <id>http://yoursite.com/2019/09/30/20190930111246/</id>
+    <published>2019-09-30T03:12:46.000Z</published>
+    <updated>2019-09-30T03:12:46.608Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图片上传</title>
     <link href="http://yoursite.com/2019/09/29/%E4%BB%B7%E5%80%BC%E8%BF%AD%E4%BB%A3/"/>
     <id>http://yoursite.com/2019/09/29/价值迭代/</id>
     <published>2019-09-29T08:22:16.000Z</published>
-    <updated>2019-09-29T08:29:58.571Z</updated>
+    <updated>2019-09-29T08:32:23.127Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="格子世界"><a href="#格子世界" class="headerlink" title="格子世界"></a>格子世界</h2><p><img src="https://i.loli.net/2019/09/29/FX7J6TKUylpIecf.png" alt><br><img src="https://i.loli.net/2019/09/29/vA3QhJL7Xz8SOex.gif" alt="截图_20190925080732.gif"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="格子世界"><a href="#格子世界" class="headerlink" title="格子世界"></a>格子世界</h2><p><img src="https://i.loli.net/2019/09/29/FX7J6TKUylpIecf.png" alt><br><img src="https://i.loli.net/2019/09/29/vA3QhJL7Xz8SOex.gif" alt="截图_20190925080732.gif"></p><p>终于可以传图了</p>]]></content>
     
     <summary type="html">
     
