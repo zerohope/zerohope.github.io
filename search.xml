@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[20191019082242]]></title>
+    <url>%2F2019%2F10%2F19%2F20191019082242%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[五子棋]]></title>
     <url>%2F2019%2F10%2F08%2F%E4%BA%94%E5%AD%90%E6%A3%8B%2F</url>
     <content type="text"><![CDATA[简单的五子棋实现 存在问题 3层计算非常慢]]></content>
