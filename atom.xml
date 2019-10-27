@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-27T15:28:03.602Z</updated>
+  <updated>2019-10-27T15:17:08.924Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>扶不起来的OJ</title>
-    <link href="http://yoursite.com/2019/10/27/%E6%89%B6%E4%B8%8D%E8%B5%B7%E6%9D%A5%E7%9A%84OJ1/"/>
-    <id>http://yoursite.com/2019/10/27/扶不起来的OJ1/</id>
-    <published>2019-10-27T15:23:43.000Z</published>
-    <updated>2019-10-27T15:28:03.602Z</updated>
-    
-    <content type="html"><![CDATA[<p>&#8195;最近被拽去协助开发OJ系统（SSM网站），整个过程非常糊。录题，改sql文件，读代码，改代码，改题。自己本来用SSM做项目的时候，都是站在巨人的肩上，涉及sql语句的问题全靠lombok，controller的返回全靠队友写好的注释，自己直接用就行。也没给自己留下什么特别深刻的印象。这次虽然有点赶鸭子上架，但是对SSM框架的认识也算是比原来多了那么一丢丢。</p><p>&#8195;目前做出来的算是个0配的LeetCode吧（用人家的名字都感觉在蹭），最起码题都是上面的。运行逻辑也比较单纯，页面传进来代码，后台拼完以后生成源文件（目前只支持java和c）。然后调命令运行，拿结果跟前期录入的测试用例的结果对照。可惜除了题给的示例意外，我们也没找别的测试用例（找不到也写不出来）。黑盒测试的测试用例要做到全覆盖，像我这种题都不一定能做出来的人，还是不去想了。有几个用几个吧。</p><p>&#8195;虽然是中途加入，但是因为基础相对比较好，就自告奋勇的帮他们解决比较难的问题了。都遇到了什么问题呢？主要集中在把用户写好的函数拼成能执行的函数。其实整个项目他们接手的时候，基本也就剩这么点活跟录题了。解决问题的过程中，也发现了一个不太懂得C语言相关的问题（因为要求支持C语言，只能硬着头皮上了）。最开始看到跟数组相关的题都会在解答函数里面加上returnSize，numSize这种表示数组大小的参数的时候，自己也是一头雾水，尝试了几次更懵逼了。请教同学之后，才明白到底是为啥。<br>  <img src="https://i.loli.net/2019/10/27/3rvMh1eSIf897Eg.png" alt><br>&#8195;C的数组没有什么封装，在不知道个数只有开始位置的时候，编译器也不知道要遍历到哪儿。也在研究的过程中顺便学习了一下指针，指针最开始真是相当让我迷幻了。但是现在对它有了一点点的了解，不一定对。当我们声明一个指针类型的变量的时候，表示这个变量只会存储<em>号前面数据类型的地址（int</em>, char<em>*）。而在别的地方用</em>+变量名的时候，我现在的理解就是查找这一个变量存储的地址里面的值（几个星就找几次）。<br>最后记录一下跑题的时候遇到的问题，感觉跟char* 和 char[]的初始化有关。</p><p><img src="https://i.loli.net/2019/10/27/Srcm4TVydDQHCaq.png" alt><br> <img src="https://i.loli.net/2019/10/27/HqADBGWXIbilCfO.png" alt><br> <img src="https://i.loli.net/2019/10/27/iDwdZ8sf5j6PpBb.png" alt></p><p>num[j] = num[j + 1]; num[length] = ‘\0’;（导致报错的代码）</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&amp;#8195;最近被拽去协助开发OJ系统（SSM网站），整个过程非常糊。录题，改sql文件，读代码，改代码，改题。自己本来用SSM做项目的时候，都是站在巨人的肩上，涉及sql语句的问题全靠lombok，controller的返回全靠队友写好的注释，自己直接用就行。也没给自己
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>近期总结</title>
