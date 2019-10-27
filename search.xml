@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[20191027225336]]></title>
+    <url>%2F2019%2F10%2F27%2F%E6%89%B6%E4%B8%8D%E8%B5%B7%E6%9D%A5%E7%9A%84OJ%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[20191019103358]]></title>
+    <url>%2F2019%2F10%2F19%2F20191019103358%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[20191019082242]]></title>
     <url>%2F2019%2F10%2F19%2F20191019082242%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[近期理解了五子棋的实现思路看懂了博弈树 AB剪枝 负极大值算法 启发式搜索然后自己也努力照着人家的代码实现了一下，实现的结果有点呆- -]]></content>
   </entry>
   <entry>
     <title><![CDATA[五子棋]]></title>
