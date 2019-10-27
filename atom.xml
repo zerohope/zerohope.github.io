@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-27T14:53:36.620Z</updated>
+  <updated>2019-10-27T15:17:08.924Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,41 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>20191027225336</title>
-    <link href="http://yoursite.com/2019/10/27/%E6%89%B6%E4%B8%8D%E8%B5%B7%E6%9D%A5%E7%9A%84OJ/"/>
-    <id>http://yoursite.com/2019/10/27/扶不起来的OJ/</id>
-    <published>2019-10-27T14:53:36.000Z</published>
-    <updated>2019-10-27T14:53:36.620Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20191019103358</title>
-    <link href="http://yoursite.com/2019/10/19/20191019103358/"/>
-    <id>http://yoursite.com/2019/10/19/20191019103358/</id>
-    <published>2019-10-19T02:33:58.000Z</published>
-    <updated>2019-10-19T02:33:58.445Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20191019082242</title>
+    <title>近期总结</title>
     <link href="http://yoursite.com/2019/10/19/20191019082242/"/>
     <id>http://yoursite.com/2019/10/19/20191019082242/</id>
     <published>2019-10-19T00:22:42.000Z</published>
-    <updated>2019-10-19T00:25:43.846Z</updated>
+    <updated>2019-10-27T15:17:08.924Z</updated>
     
     <content type="html"><![CDATA[<p>近期理解了五子棋的实现思路<br>看懂了博弈树  AB剪枝 负极大值算法 启发式搜索<br>然后自己也努力照着人家的代码实现了一下，实现的结果有点呆- -</p>]]></content>
     
@@ -84,21 +54,6 @@
       
         &lt;h2 id=&quot;简单的五子棋实现&quot;&gt;&lt;a href=&quot;#简单的五子棋实现&quot; class=&quot;headerlink&quot; title=&quot;简单的五子棋实现&quot;&gt;&lt;/a&gt;简单的五子棋实现&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/08/fe9oHx
       
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20190930111246</title>
-    <link href="http://yoursite.com/2019/09/30/20190930111246/"/>
-    <id>http://yoursite.com/2019/09/30/20190930111246/</id>
-    <published>2019-09-30T03:12:46.000Z</published>
-    <updated>2019-09-30T03:12:46.608Z</updated>
-    
-    <summary type="html">
     
     </summary>
     
