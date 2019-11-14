@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-27T15:32:02.987Z</updated>
+  <updated>2019-11-13T14:36:44.189Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“大”数据处理</title>
+    <link href="http://yoursite.com/2019/11/12/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/"/>
+    <id>http://yoursite.com/2019/11/12/数据处理/</id>
+    <published>2019-11-12T13:16:00.000Z</published>
+    <updated>2019-11-13T14:36:44.189Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近帮老师处理了一批OJ数据，整个过程非常艰辛。原始数据长这样。<br>  <img src="https://i.loli.net/2019/11/12/xZaeEGktKfP2Ijq.png" alt><br>  <img src="https://i.loli.net/2019/11/12/RtQ6PDqp1McuYJx.png" alt><br>这是一个答题系统的登陆记录，跟每一道题的提交记录。需求是处理成每个人每次登录后做了多少题，以及每道题的答题时间等相关记录。（处理完以后长这样）<br> <img src="https://i.loli.net/2019/11/12/tqFDTGE7oZe85jU.png" alt><br>做题记录有11W条，文件大小6MB。在拿到文件后，整个人一头雾水。之后稍微理了一下思路，求助了一下同学。最后决定先在excel里面按照学号排序，时间排序。然后存到数据库里面连接。<br>存到数据库里面用到了<br>=CONCATENATE(“INSERT INTO OJLGT(user_id, questionId,submitTime,result) VALUES(‘“ &amp; A2 &amp; “‘, ‘“ &amp; B2 &amp; “‘’, ‘“ &amp; D2 &amp; “‘’, ‘“ &amp; E2 &amp; “‘);”)<br>把每一条excel记录转成了一条insert语句，然后把它插入到数据库里面。之后就是格式化时间<br>SELECT STR_TO_DATE(submittime,’%d/%m/%Y %H:%i:%s’) from ojmess AS result;<br>然后就是连接了，连接的时候每一条答题记录的提交时间要在本次登陆之后，下次登陆之前，用这个联系来把两张表连接起来。因为已经在excel里面排序了，所以这里就是一个找上一条，下一条的问题。<br>select ojlogin.user_id, time, question_id,submitTime,result from ojlogin, ojmess<br> where ojlogin.user_id=ojmess.user_id and unix_timestamp(submitTime)&gt;unix_timestamp(time)<br>  and unix_timestamp(submitTime)&lt; (select unix_timestamp(time) from ojlogin as t where t.id =ojlogin.id+1)</p><p>select  ( (select unix_timestamp(submitTime) from ojinfo as t where t.id =ojinfo.id+1) - UNIX_TIMESTAMP(submitTime))/60 dif_second from ojinfo</p><p>UPDATE ojmt<br>INNER JOIN ( SELECT * FROM ( SELECT id AS dd, STR_TO_DATE( submittime, ‘%d/%m/%Y %H:%i:%s’ ) submittime2 FROM ojmt ) a ) b ON b.dd = ojmt.id<br>SET ojmt.submittime = b.submittime2;</p><p>中间用了一些现在我也想不太起来的sql查询，贴在这里，万一以后哪天能用到呢。之后就是执行查询语句啦。（跑了20多分钟，太难了，不会对语句进行优化）到这里数据就连好了。难题也就解决了，之后要格式化一些记录，我就把数据又导出到excel表格里面（excel）函数执行的速度还是很快的。这处理过程遇到了一个格式化问题ID的问题，因为ID在表格里面不连续，我就把ID又排了个序，然后放在了另一个sheet里，通过下面的函数拿出来。<br>=INDEX(Sheet5!B:B,MATCH(C2,Sheet5!C:C,0))，<br>最近乱七八糟的事情比较多，就先写到这儿吧~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近帮老师处理了一批OJ数据，整个过程非常艰辛。原始数据长这样。&lt;br&gt;  &lt;img src=&quot;https://i.loli.net/2019/11/12/xZaeEGktKfP2Ijq.png&quot; alt&gt;&lt;br&gt;  &lt;img src=&quot;https://i.loli.net
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>扶不起来的OJ</title>
