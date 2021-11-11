@@ -20,7 +20,7 @@ var i =1;
  }
 //随机设置背景色
  function setBGC(){
-	 var colorArr = new Array("maroon","darkcyan","#008081","#82007E","#7E8003");	
+	 var colorArr = new Array("maroon","#008081","#7C8103","#82007E","#808080");	
 	 document.getElementById("imgBg").style.background = colorArr[i];
 	 i++;
 	 i=i%5
